@@ -124,6 +124,50 @@ body {
 .section-four
 {
     height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four-container
+{
+    width: 1250px;
+    height: 125px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-four-container-title
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:  #f9faf8;
+
+}
+
+.section-four-container-text
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color:  #f9faf8;
+}
+
+.section-four-container-button
+{
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: #f9faf8;
+    border-style: solid;
+    color:  #e5e7eb;
 }
 
 .footer
