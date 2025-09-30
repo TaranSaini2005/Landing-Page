@@ -43,21 +43,37 @@ body {
 .section-three
 {
     display: flex;
-    flex-direction: column;
-    flex-wrap:  wrap;
     justify-content: center;
     align-items:  center;
     background-color: #e5e7eb;
     height: 575px;
 }
 
+.section-three-container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items:  center;
+    width: 1175px;
+}
+
 .section-three-quote
 {
-    width: 1225px;
-    font-size: 36px;
     font-family: 'Roboto', sans-serif;
+    font-size: 36px;
     font-weight: 300;
+    font-style: italic;
     color:  #1f2937;
+}
+
+.section-three-author
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: flex-end;
 }
 
 .section-four
