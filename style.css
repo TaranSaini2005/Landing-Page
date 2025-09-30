@@ -37,7 +37,52 @@ body {
 .section-one, .section-two
 {
     height: 475px;
+}
 
+.section-one
+{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 100px;
+}
+
+.section-one-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:  flex-start;
+    flex-wrap:  wrap;
+    gap: 8px;
+    width: 400px;
+    height: 281px;
+}
+
+.section-one-container-title
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color:  #f9faf8;
+}
+
+.section-one-container-text
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color:  #e5e7eb;
+}
+
+.section-one-container-button
+{
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .section-three
